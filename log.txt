@@ -1,0 +1,560 @@
+    1  clear
+    2  ls
+    3  ping 8.8.8.8
+    4  docker
+    5  sudo apt update
+    6  sudo apt install traceroute iperf3 
+    7  nano
+    8  clear
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd wj
+   13  ls
+   14  nano readme.txt
+   15  ls
+   16  mkdir test
+   17  cd test
+   18  ls
+   19  cd ..
+   20  ls
+   21  ifconfig
+   22  sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
+   23  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   24  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   25  sudo apt-get update
+   26  sudo apt-get install -y docker-ce
+   27  sudo service docker start
+   28  docker ps
+   29  sudo usermod -aG docker $USER
+   30  docker ps
+   31  cat /etc/group | grep docker
+   32  docker ps
+   33  ifconfig
+   34  clear
+   35  sudo apt install bb
+   36  bb
+   37  sudo apt purge bb
+   38  python
+   39  python3
+   40  clear
+   41  ls
+   42  ifconfig
+   43  sshd
+   44  sudo apt install htop
+   45  htop
+   46  clear
+   47  ls
+   48  sshd
+   49  ifconfig
+   50  sudo apt install openssh-server
+   51  ifconfig
+   52  lspu
+   53  lsb_release -A
+   54  lsb_release 
+   55  docker
+   56  sudo curl -L "https://github.com/docker/compose/releases/download/2.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   57  ls
+   58  uname -s
+   59  uname -m
+   60  sudo chmod +x /usr/local/bin/docker-compose
+   61  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   62  docker-compose -v
+   63  docker-ompose
+   64  cd /usr/local/bin
+   65  ls
+   66  docker-compose -v
+   67  sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+   68  docker-compose -v
+   69  clear
+   70  cd #
+   71  ls
+   72  mkdir projects
+   73  cd projects/
+   74  ls
+   75  mkdir dtest
+   76  cd dtest
+   77  ls
+   78  clear
+   79  nano docker-compose.yml
+   80  nano .env
+   81  doccker-compose up
+   82  docker-compose up -d
+   83  nano .env
+   84  docker-compose up -d
+   85  nano .env
+   86  nano docker-compose.yml 
+   87  nano .env
+   88  docker-compose up -d
+   89  docker ps
+   90  clear
+   91  ls
+   92  docker ps
+   93  nano docker-compose.yml 
+   94  docker-compose up -d --build
+   95  docker ps
+   96  nano docker-compose.yml 
+   97  docker ps
+   98  docker-compose up -d --build
+   99  docker ps
+  100  ifconfig
+  101  cat docker-compose.yml 
+  102  cat .envs
+  103  cat .env
+  104  docker-compose down
+  105  clear
+  106  ls
+  107  python3 -m http.server 8777
+  108  ifconfig
+  109  python3 -m http.server 8777
+  110  docker-compose up -d --build
+  111  redis-li
+  112  redis-cli
+  113  sudo apt install redis-tools
+  114  redis-li
+  115  redis-cli
+  116  redis-cli -p 6389
+  117  nano docker-compose.yml 
+  118  nano .envs
+  119  nano .env
+  120  nano docker-compose.yml 
+  121  docker-compose up -d
+  122  docker ps
+  123  traceroute 8.8.8.8
+  124  ngrok
+  125  clear
+  126  traceroute 8.8.8.8
+  127  ls
+  128  doker ps
+  129  docker ps
+  130  clear
+  131  docker ps
+  132  ls
+  133  clear
+  134  docker ps
+  135  lsb_release -a
+  136  ls
+  137  sudo apt install mmap
+  138  sudo apt install nmap
+  139  sudo apt update
+  140  sudo apt install gedit -y
+  141  clear
+  142  sudo apt install gimp -y
+  143  sudo apt install nautilus -y
+  144  sudo apt install vlc -y
+  145  sudo apt install x11-apps -y
+  146  xeyes
+  147  rviz
+  148  gedit
+  149  vlc
+  150  pip install matplotlib
+  151  sudo apt install python3.10
+  152  python
+  153  python3
+  154  python3.10
+  155  which python3
+  156  cd /usr/bin
+  157  ls
+  158  sudo add-apt-repository ppa:deadsnakes/ppa
+  159  cd #
+  160  sudo apt update
+  161  sudo apt install python3.10
+  162  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+  163  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
+  164  sudo apt purge python3.10
+  165  sudo apt autoremove
+  166  sudo apt install python3.10
+  167  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
+  168  python3.10
+  169  pip
+  170  sudo add-apt-repository ppa:deadsnakes/ppa
+  171  sudo apt update
+  172  sudo apt install python3.10
+  173  python
+  174  python3
+  175  python3.10
+  176  cd /usr/bin
+  177  ls
+  178  ls 
+  179  ls | grep python
+  180  python3
+  181  python3m
+  182  python3.10
+  183  sudo apt install --reinstall python3.10
+  184  python3.10
+  185  cd /usr/local/bin
+  186  ls
+  187  cd #
+  188  ls
+  189  cd test
+  190  ls
+  191  clear
+  192  ls
+  193  cd test
+  194  ls
+  195  python3.10 --version
+  196  sudo apt install software-properties-common -y
+  197  sudo apt install python3.10 python3.10-dev python3.10-venv -y
+  198  sudo apt install software-properties-common -y
+  199  sudo add-apt-repository ppa:deadsnakes/ppa
+  200  sudo apt update
+  201  sudo apt install software-properties-common -y
+  202  sudo apt install --reinstall python3.10
+  203  python3.10
+  204  python3
+  205  python3.10
+  206  sudo apt install python3.9
+  207  sudo apt install python3.11
+  208  sudo apt install python3.10
+  209  sudo apt install python3.8
+  210  python3.8
+  211  sudo apt purge python3.8
+  212  sudo apt autoremove
+  213  sudo apt upgrade
+  214  sudo apt install software-properties-common -y
+  215  sudo add-apt-repository ppa:deadsnakes/ppa
+  216  sudo apt update
+  217  clear
+  218  sudo apt install --reinstall python3.10
+  219  python3.10
+  220  sudo apt purge python3.10
+  221  clear
+  222  sudo apt install wget build-essential libreadline-gplv2-dev libncursesw5-dev      libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
+  223  wget https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz 
+  224  tar xzf Python-3.10.6.tgz 
+  225  cd Python-3.10.6/
+  226  ./configure --enable-optimizations
+  227  make altinstall
+  228  cd /usr/local/bin
+  229  ls
+  230  ls -al
+  231  cd ~/test/Python-3.10.6/
+  232  ls
+  233  cd ~/test/Python-3.10.6/cd /usr/local/bin
+  234  ls ~al /usr/local
+  235  ls -al /usr/local
+  236  ls -al /usr/local/bin
+  237  nano t.txt
+  238  touch t.txt
+  239  ls
+  240  rm t.txt
+  241  ls
+  242  python3.10
+  243  sudo make altinstall
+  244  python3.10
+  245  python
+  246  python3
+  247  python3.10
+  248  pip
+  249  python3.10 -m pip install matplotlib
+  250  python
+  251  python3
+  252  python3.10
+  253  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
+  254  sudo update-alternatives --config python
+  255  ls /usr/bin/python
+  256  ls /usr/bin/python3
+  257  ls /usr/bin/python3.10
+  258  ls /usr/bin/python3.6
+  259  which python3.10
+  260  sudo update-alternavtives --install /usr/bin/python3 python3 /usr/bin/local/python3.10 1
+  261  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/local/python3.10 1
+  262  sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.10 1
+  263  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6
+  264  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
+  265  python3
+  266  sudo update-alternatives --config python3
+  267  python3
+  268  ffmpeg
+  269  sudo apt install ffmpeg
+  270  ffmpeg
+  271  clear
+  272  htop
+  273  ls
+  274  cd #
+  275  ls
+  276  cd projects/
+  277  ls
+  278  cd #
+  279  ls
+  280  docker ps
+  281  pwd
+  282  cd #
+  283  ls
+  284  cd projects/
+  285  ls
+  286  cd dtest/
+  287  ls
+  288  docker-compose down
+  289  cd /mnt/c/Users/Administrator/Documents/projects/maria_db_test
+  290  ls
+  291  nano
+  292  clear
+  293  ls
+  294  cd #
+  295  ls
+  296  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  297  cd -
+  298  ls
+  299  cd #
+  300  pwd
+  301  cd /mnt/Downloads
+  302  cd /mnt/d//Downloads
+  303  ls
+  304  cd ../..
+  305  cd C:\Users\Administrator\Downloads
+  306  cd C:/Users/Administrator/Downloads
+  307  cd C/Users/Administrator/Downloads
+  308  ls
+  309  cd c
+  310  ls
+  311  cd Users/Administrator/Downloads/
+  312  ls
+  313  cd #
+  314  ls
+  315  pwd
+  316  cd -
+  317  mv Miniconda3-latest-Linux-x86_64.sh /home/wj
+  318  cd -
+  319  ls
+  320  chmod +x Miniconda3-latest-Linux-x86_64.sh
+  321  ./Miniconda3-latest-Linux-x86_64.sh 
+  322  python
+  323  conda create -n pt1 python=3.10.6
+  324  conda activate
+  325  conda create -n pt1 python=3.10.6
+  326  conda deactivate
+  327  ls
+  328  cd #
+  329  ls
+  330  conda env export > env.yml
+  331  ls ~ | grep miniconda
+  332  ls
+  333  ls ~ | grep miniconda
+  334  rm -rf ~/miniconda3/
+  335  nano ~/.bashrc
+  336  source ~/.bashrc
+  337  python
+  338  python3
+  339  nano ~/.bashrc
+  340  source ~/.bashrc
+  341  python
+  342  pip
+  343  pip3
+  344  python pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+  345  python -m pip install torch
+  346  python -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+  347  python
+  348  pip list
+  349  python3 -m pip list
+  350  python
+  351  python3 -m pip install opencv-python
+  352  python3 -m pip install --upgrade pip
+  353  clear
+  354  ls
+  355  cd #
+  356  cd projects/
+  357  ls
+  358  mkdir ttest
+  359  cd ttest
+  360  ls
+  361  gedit ttest1.py
+  362  python ttest1.py 
+  363  rm ttest1.py 
+  364  python ttest1.py 
+  365  gedit ttest1.py
+  366  python ttest1.py 
+  367  ls
+  368  clear
+  369  python
+  370  cd ..
+  371  ls
+  372  python test_classification.py 
+  373  pip install tqdm
+  374  python test_classification.py 
+  375  pip install pipreqs
+  376  pipreqs .
+  377  ls
+  378  cat requirements.txt 
+  379  pip install -r requirements.txt 
+  380  python test_classification.py 
+  381  docker ps
+  382  ffmpeg
+  383  claer
+  384  clear
+  385  htop
+  386  ls
+  387  mkdir python-docker-test
+  388  cd python-docker-test/
+  389  mkdir app
+  390  cd app
+  391  nano main.py
+  392  cd ..
+  393  nano docker-compose.yml
+  394  mv docker-compose.yml Dockerfile
+  395  ls
+  396  mv Dockerfile app
+  397  ls
+  398  mv app Dockerfile
+  399  cat Dockerfile/
+  400  l
+  401  ls -al
+  402  mv Dockerfile/ app
+  403  ls
+  404  cd app
+  405  ls
+  406  cat Dockerfile 
+  407  cd ..
+  408  ls
+  409  nano docker-compose.yml
+  410  nano docker-compose.yml 
+  411  docker-compose build
+  412  ls
+  413  nano docker-compose.yml 
+  414  cd app/
+  415  ls
+  416  nano Dockerfile 
+  417  docker-compose up 
+  418  cd. .
+  419  cd ..
+  420  docker-compose up
+  421  nano docker-compose.yml 
+  422  docker-compose up
+  423  nano docker-compose.yml 
+  424  docker-compose up
+  425  nano docker-compose.yml 
+  426  nano app/Dockerfile 
+  427  nano docker-compose.yml 
+  428  nano app/Dockerfile 
+  429  nano docker-compose.yml 
+  430  docker-compose up
+  431  docker-compose up --build
+  432  ls
+  433  cd app/
+  434  ls
+  435  pipreqs .
+  436  ls
+  437  cat requirements.txt 
+  438  cd ..
+  439  docker-compose up --build
+  440  cd app/
+  441  ls
+  442  nano Dockerfile 
+  443  docker-compose exec -it app
+  444  docker-compose exec -it app bash
+  445  docker ps
+  446  docker-compose up --build
+  447  nano Dockerfile 
+  448  ls
+  449  cd ..
+  450  docker-compose up --build
+  451  nano Dockerfile 
+  452  nano app/Dockerfile 
+  453  docker-compose up --build
+  454  docker-compose up --build -d
+  455  docker-compose exec -it app bash
+  456  ls
+  457  nano docker-compose.yml 
+  458  docker-compose exec -it app bash
+  459  ls
+  460  cd app/
+  461  ls
+  462  nano Dockerfile 
+  463  docker-compose exec -it app bash
+  464  nano Dockerfile 
+  465  nano docker-compose.yml 
+  466  ls
+  467  nano Dockerfile 
+  468  cd ..
+  469  nano docker-compose.yml 
+  470  docker-compose up --build
+  471  nano app/main.py 
+  472  docker-compose logs -f
+  473  docker-compose up
+  474  nano app/main.py 
+  475  docker-compose up
+  476  nano app/Dockerfile 
+  477  docker-compose up -d --build
+  478  docker-compose logs -f
+  479  nano app/main.py 
+  480  nano app/
+  481  nano app/Dockerfile 
+  482  docker-compose up -d --build
+  483  docker-compose logs -f
+  484  nano app/Dockerfile 
+  485  docker-compose up -d --build
+  486  docker-compose exec -it app bash
+  487  nano app/Dockerfile 
+  488  docker-compose up -d --build
+  489  nano app/Dockerfile 
+  490  docker-compose exec -it app bash
+  491  nano app/Dockerfile 
+  492  docker-compose exec -it app bash
+  493  wait
+  494  time
+  495  time 1
+  496  wait 10
+  497  pause
+  498  sleep 10
+  499  ls
+  500  cd projects/
+  501  ls
+  502  ls
+  503  cd python-docker-test/
+  504  ls
+  505  docker-compose up -d --build
+  506  docker-compose logs -f
+  507  nano app/Dockerfile 
+  508  docker-compose down
+  509  docker-compose up --build
+  510  nano app/main.py 
+  511  docker-compose up --build
+  512  docker-compose up --build -d
+  513  docker-compose logs -f
+  514  nano app/Dockerfile 
+  515  nano app/main.py 
+  516  docker-compose up --build -d
+  517  docker-compose logs -f
+  518  nano app/main.py 
+  519  nano docker-compose.yml 
+  520  nano app/Dockerfile 
+  521  docker-compose up -d --build
+  522  docker-compose logs -f app
+  523  docker-compose up --build -d
+  524  docker-compose logs -f app
+  525  nano Do
+  526  nano app/Dockerfile 
+  527  docker-compose up --build -d
+  528  docker-compose logs -f app
+  529  nano app/Dockerfile 
+  530  docker-compose up --build -d
+  531  docker-compose logs -f app
+  532  docker-compose up --build
+  533  nano docker-compose.yml 
+  534  nano app/Dockerfile 
+  535  ls
+  536  docker-compose up -d --build
+  537  docker-compose exec -it app ash
+  538  docker-compose exec -it app bash
+  539  docker-compose down
+  540  docker-compose up -d --build
+  541  docker-compose exec -it app bash
+  542  docker-compose up -d --build
+  543  docker-compose exec -it app bash
+  544  docker-compose up -d --build
+  545  docker-compose exec -it app bash
+  546  docker-compose up -d --build
+  547  docker-compose exec -it app bash
+  548  docker-compose logs -f app
+  549  docker-compose exec -it app bash
+  550  docker-compose logs -f app
+  551  docker-compose exec -it app bash
+  552  docker-compose up -d --build
+  553  docker-compose logs -f app
+  554  docker-compose up -d --build
+  555  docker-compose logs -f app
+  556  history
+  557  docker-compose logs -f app
+  558  ㅣㄴ
+  559  ls
+  560  history > log.txt
