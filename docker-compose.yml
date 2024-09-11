@@ -1,0 +1,24 @@
+services:
+  app:
+    build: ./app
+    container_name: python_app_container
+    env_file: .env
+    volumes:
+      - ./app:/app
+    # restart: always 종료 또는 Docker 서비스 시작 시 재시작 옵션입니다.
+
+  # MariaDB 추가 시 예제입니다.
+  # db:
+  #   image: mariadb:10
+  #   ports:
+  #     - 3306:3306
+  #   volumes:
+  #     - ./db/conf.d:/etc/mysql/conf.d
+  #     - ./db/data:/var/lib/mysql
+  #     - ./db/initdb.d:/docker-entrypoint-initdb.d
+  #   env_file: .env
+  #   environment:
+  #     TZ: Asia/Seoul
+  #   networks:
+  #     - backend
+  #   restart: always
