@@ -7,7 +7,7 @@
 # python:bookwarm: debian 12
 # 용량이 매우 중요한 것이 아니라면 slim 버전에 필요한 모듈을 추가하는 것을 추천함.
 
-FROM python:3.10-slim
+FROM python:3.12-slim
 WORKDIR /app/
 ADD requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
