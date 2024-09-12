@@ -30,12 +30,20 @@ Invoke-WebRequest -Uri https://aka.ms/wslubuntu2204 -OutFile Ubuntu.appx -UseBas
 ```
 # Add-AppxPackage .\Ubuntu.appx 
 ```
-
 - Ubuntu.appx 파일을 압축해제하여 안에 있는 것 중 아키텍쳐에 맞는 것을 다시 압축 해제, 일반적으로 Ubuntu_2204.1.7.0_x64.appx
 - 안에 있는 ubuntu.exe를 실행하면 설치가 됨, 그러나 vhd 파일이 해당 경로에 생성되며, 기본 20GB 는 차지하므로 용량 주의
-- 우분투 18.04는 위 패키지를 설치하면 알아서 경로가 잡혀 wsl 명령을 입력하면 켜졌으나, 필자가 삭제 후 다시한 것이 문제인지 22.04는 안 잡힘
-- 환경 변수로 넣어서 wsl2로 ubuntu.exe를 이름을 바꿔 사용하고 있음.
-- 다만 이런식으로 사용하면 커맨드 창에서 자동으로 마운트된 경로로 실행하는 기능이 안됨. /mnt/c 경로 아래에 있다고 생각하고 하면 되나 약간 불편
+- 만약 여러개 버전의 리눅스를 설치했고 하나만 사용할 것이라면, 이전 리눅스는 `wsl --list` 명령을 이용해 확인후 `wsl --unregister <distro>` 로 삭제하거나 우선순위 
+
+## 주의사항
+- 만약 wsl2가 아니라 wsl1이 설치되면 여러 기능을 사용할 수 없음. 특히 nvidia gpu 연동 등 치명적인 기능들
+- 웬만하면 wsl2가 자동으로 설치되나, `wsl --list --verbose` 시 버전이 1이고 `wsl --set-default-version 2` 나 `wsl --set-version <distro> 2` 도 안 막히면 wsl2로 새로 설치
+
+## wsl 재설치법
+- 먼저 앱 및 기능에서 linux 배포판, 일반적으로 Ubuntu를 삭제
+- 이후 `wsl --unregister <distro>` 를 입력해 등록 해제
+- 윈도우 기능/켜기 옵션에서 wsl 기능 해제 후 재부팅
+- 윈도우 기능/켜기 옵션에서 wsl 기능 선택 후 다시 재부팅
+- 설치 진행
 
 # Docker
 ## 임의의 Ubuntu에 Docker 설치
@@ -73,9 +81,17 @@ docker ps
 sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
 sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 ```
+- 이렇게 한 뒤에 dockerd 로는 실행되는데 service로는 안 올라온다면
+```
+sudo update-alternatives --config iptables
+```
+입력 후 1을 선택해 iptables-legacy를 선택
+
 
 # Docker-compose
 ## docker-compose 설치
+아래 작업은 일정 버전 이상의 docker에서는 `docker compose`가 `docker-compose`를 대체하므로 굳이 필요하지 않음.
+
 ```
 sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
